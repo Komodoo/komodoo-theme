@@ -1,20 +1,5 @@
 @import "common/foundation/mixins";
 
-.contents .topic-list.categories td, .mobile-view .category-list-item.category {
-  border-left:none;
-
-  .category-name {
-    @include border-radius-all(3px);
-    background: rgba(0,0,0,0.05);
-    color: black;
-    padding: 5px 13px;
-    border-radius: 3px;
-    display: inline-block;
-    width: 9em;
-    text-align: center;
-  }
-}
-
 .contents .topic-list {
   td, th {
     &.posters {
