@@ -4,6 +4,10 @@
   height: 63px;
 
   .icons .icon {
-      color: $header_primary;
+    color: $header_primary;
+  }
+
+  .panel .btn-primary {
+    color: $header_primary;
   }
 }
