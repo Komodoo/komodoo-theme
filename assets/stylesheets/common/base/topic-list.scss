@@ -9,10 +9,6 @@
   }
 }
 
-.badge-wrapper.box span.badge-category-bg, .badge-wrapper.box span.badge-category-parent-bg {
-  @include border-radius-all(3px);
-}
-
 .badge-wrapper.box {
   max-width: 130px;
   padding: 3px 0 0 0;
