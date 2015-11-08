@@ -1,0 +1,21 @@
+.spinner {
+    border-color: #d5f6ee;
+    border-right-color: transparent;
+}
+
+.body-page {
+  text-align: center;
+  width: initial;
+  padding: initial;
+
+  .btn.btn-primary{
+    width: 50vw;
+    height: 10vh;
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-top: 10vh;
+  }
+}

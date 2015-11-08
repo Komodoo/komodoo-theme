@@ -8,6 +8,8 @@
 register_asset "stylesheets/common/foundation/colors.scss", :variables
 
 register_asset "stylesheets/common/components/badges.css.scss"
+
 register_asset "stylesheets/common/base/header.scss"
+register_asset "stylesheets/common/base/discourse.scss"
 
 register_asset "stylesheets/desktop/topic.scss", :desktop
