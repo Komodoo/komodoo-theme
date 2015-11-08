@@ -4,7 +4,6 @@
 }
 
 .body-page {
-  text-align: center;
   width: initial;
   padding: initial;
 
@@ -12,10 +11,17 @@
     width: 50vw;
     height: 10vh;
     font-size: 2em;
+    left: 5vw;
+    position: absolute;
   }
 
   h1 {
     font-size: 3em;
     margin-top: 10vh;
+    text-align: center;
+  }
+
+  em {
+    text-align: center;
   }
 }
