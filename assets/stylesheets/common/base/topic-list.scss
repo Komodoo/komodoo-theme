@@ -1,0 +1,29 @@
+@import "common/foundation/mixins";
+
+.contents .topic-list {
+  td, th {
+    &.posters {
+      width: 60px;
+      min-width: 60px;
+    }
+  }
+}
+
+.badge-wrapper.box span.badge-category-bg, .badge-wrapper.box span.badge-category-parent-bg {
+  @include border-radius-all(3px);
+}
+
+.badge-wrapper.box {
+  max-width: 130px;
+  padding: 3px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+.menu-panel .badge-wrapper.box, .title-wrapper .badge-wrapper.box, #suggested-topics h3 .badge-wrapper.box {
+  width: auto;
+}
+
+.topic-list th.category {
+  width: 140px;
+}
